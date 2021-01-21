@@ -10,12 +10,19 @@ UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
 class BULLCOWGAME_API UBullCowCartridge : public UCartridge
 {
 	GENERATED_BODY()
-
+	
 	public:
 	virtual void BeginPlay() override;
 	virtual void OnInput(const FString& Input) override;
+	void SetupGame();
+	void EndGame();
+	void ProcessGuess(const FString& Input);
+	bool IsIsogram(FString word);
 
 	// Your declarations go below!
 	private:
 		FString HiddenWord;
+		int32 Lives;
+		int32 Length;
+		bool bGameOver;
 };
