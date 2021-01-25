@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Building_Escape.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0EE1F41C-1566-4097-8B74-F9B5EAD58649}</UniqueIdentifier>
+      <UniqueIdentifier>{E041CB95-20BC-4C76-8ABA-B8CEAA679484}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Building_Escape.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3FB3133E-475E-420A-A59C-7F3171903F92}</UniqueIdentifier>
+      <UniqueIdentifier>{AAA70283-6673-47EF-A7E3-3166FB0F187F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Building_Escape">
-      <UniqueIdentifier>{F41366D8-966D-4780-BB05-66DC6CF4A7A7}</UniqueIdentifier>
+      <UniqueIdentifier>{0CC2ADA1-A3F7-4E30-8F68-2976475CC2FA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Building_Escape\Building_Escape.Build.cs">
       <Filter>Source\Building_Escape</Filter>
@@ -41,14 +41,26 @@
     <ClInclude Include="..\..\Source\Building_Escape\Building_EscapeGameModeBase.h">
       <Filter>Source\Building_Escape</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
+    <ClCompile Include="..\..\Source\Building_Escape\OpenDoor.cpp">
+      <Filter>Source\Building_Escape</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Building_Escape\OpenDoor.h">
+      <Filter>Source\Building_Escape</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Building_Escape\WorldPosition.cpp">
+      <Filter>Source\Building_Escape</Filter>
+    </ClCompile>
     <ClInclude Include="..\..\Source\Building_Escape\WorldPosition.h">
       <Filter>Source\Building_Escape</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Building_Escape\WorldPosition.cpp">
+    <ClInclude Include="..\..\Source\Building_Escape\Grabber.h">
+      <Filter>Source\Building_Escape</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Building_Escape\Grabber.cpp">
       <Filter>Source\Building_Escape</Filter>
     </ClCompile>
   </ItemGroup>
